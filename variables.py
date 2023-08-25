@@ -32,3 +32,4 @@ motherboard_1 = ""
 motherboard_2 = ""
 numbers = 0
 text = "Please choose an option:\n1: High\n2: Mid\n3: Low"
+text1 = "1: Yes\n2: No"

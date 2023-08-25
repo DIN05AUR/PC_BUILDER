@@ -2,11 +2,15 @@ import interpret_options
 import functions
 import variables
 
-functions.show_option_box()
+functions.show_welcome_art()
+functions.show_asterisk_divider()
+# functions.show_option_box()
 
 #----------------------------------------------------------------------------------------------------------------------
 
-user_input = input("Enter option numbers separated by commas: ")
+print("\nWhat are you going to use your pc for?")
+functions.show_option_box()
+user_input = input("Enter options that's most applicable to you, separated by commas: ")
 if not user_input:
     print("No input provided.")
     exit(1)
@@ -60,6 +64,15 @@ while True:
 functions.show_divider()
 interpret_options.interpret_budget(budget_option)
 quotation_1, quotation_2 = interpret_options.interpret_budget(budget_option)
-functions.print_quotation_1()
-functions.show_divider()
-functions.print_quotation_2()
+
+#-----------------------------------------------------------------------------------------------------------------------
+
+
+# functions.print_quotation_1()
+# functions.show_divider()
+# functions.print_quotation_2()
+
+#-----------------------------------------------------------------------------------------------------------------------
+
+multitask = functions.ask_multitask()
+functions.interpret_multitask()
