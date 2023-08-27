@@ -3,22 +3,15 @@ knowledge_base = {
         "high": {
             "processors": {
                 "processor_1": "Intel Core i9-13900K",
-                "processor_2": "AMD Ryzen 9 7950X/5950X",
+                "processor_2": "AMD Ryzen 9 7950X",
                 "processor_3": "Intel Core i7-13700",
+                "processor_4": "AMD Ryzen 9 5950X",
             },
             "rams": {
-                "16GB": {
-                    "ram_1": "bbeief",
-                    "ram_2": "fbhefe",
-                },
-                "32GB": {
-                    "ram_1": "bbeief",
-                    "ram_2": "fbhefe",
-                },
-                "64GB": {
-                    "ram_1": "bbeief",
-                    "ram_2": "fbhefe",
-                },
+                "ram_1": "DDR5: G.Skill Trident Z5 RGB (AMD Expo) 32GB (2 x 16GB) DDR5 6000 / DDR5: G.Skill Trident Z5 NEO RGB Series (AMD Expo) 64GB (2 x 32GB)",
+                "ram_2": "DDR5: G.Skill Trident Z5 Neo RGB AMD Expo 32GB (2 * 16GB) DDR5 6000 MHz / G.Skill Trident Z5 NEO RGB Series (AMD Expo) 64GB (2 x 32GB)",
+                "ram_3": "DDR5: G.Skill Trident Z5 RGB 32GB (2 * 16GB) DDR5 5600 MHz / G.Skill Ripjaws S5 (Intel XMP) 64GB (2 x 32GB) DDR5 5600",
+                "ram_4": "DDR4: G.SKILL Trident Z Neo 32GB (2 * 16GB) DDR4 3600MHz / G.Skill Trident Z NEO Series 64GB (2 x 32GB)",
             },
             "gpus": {
                 "gpu_1": "bbeief",
@@ -28,6 +21,7 @@ knowledge_base = {
                 "motherboard_1": "GIGABYTE Z790 AORUS Master/MSI PRO Z790-A",
                 "motherboard_2": "MSI PRO X670-P/ASUS ROG Strix X670E-E",
                 "motherboard_3": "GIGABYTE B760 AORUS Elite AX",
+                "motherboard_4": "ASUS ROG Strix X570-E/ASUS ROG Crosshair VIII Dark Hero"
             },
         },
         "mid": {
@@ -37,18 +31,9 @@ knowledge_base = {
                 "processor_3": "Intel Core i7-12700K",
             },
             "rams": {
-                    "16GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
-                    "32GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
-                    "64GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
+                "ram_1": "DDR5: Kingston Fury Beast 32GB (2x16GB) 5200MT/s DDR5",
+                "ram_2": "DDR4: G.Skill Trident Z Neo RGB 32GB (2 * 16GB) DDR4 3200 Mhz / G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB]",
+                "ram_3": "DDR5: TEAMGROUP T-Force Delta RGB DDR5 Black 32GB Kit (16GBx2) 5200MHz",
             },
             "gpus": {
                 "gpu_1" : "bbeief",
@@ -67,18 +52,9 @@ knowledge_base = {
                 "processor_3": "Intel Core i5-12400",
             },
             "rams": {
-                    "16GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
-                    "32GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
-                    "64GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
+                "ram_1": "G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB] /G.Skill Trident Z RGB Series 32GB (2 x 16GB)/Patriot Viper Steel RGB DDR4 RAM 32GB (2X16GB) 3200MHz",
+                "ram_2": "G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB] /G.Skill Trident Z RGB Series 32GB (2 x 16GB)/Patriot Viper Steel RGB DDR4 RAM 32GB (2X16GB) 3200MHz",
+                "ram_3": "G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB] /G.Skill Trident Z RGB Series 32GB (2 x 16GB)/Patriot Viper Steel RGB DDR4 RAM 32GB (2X16GB) 3200MHz",
             },
             "gpus": {
                 "gpu_1" : "bbeief",
@@ -99,13 +75,19 @@ knowledge_base = {
                 "processor_3": "dbbewfbe",
             },
             "rams": {
-                    "8GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
+                    # "8GB": {
+                    #     "ram_1" : "bbeief",
+                    #     "ram_2" : "fbhefe",
+                    # },
                     "16GB" : {
                         "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_2" : "bbeief",
+                        "ram_3" : "bbeief",
+                    },
+                    "32GB" : {
+                        "ram_1" : "bbeief",
+                        "ram_2" : "bbeief",
+                        "ram_3" : "bbeief",
                     },
             },
             "gpus": {
@@ -126,13 +108,20 @@ knowledge_base = {
             },
             "rams": {
                     "8GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     },
                     "16GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    }
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3" : "bbeief",
+                    },
+                    "32GB" : {
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3" : "bbeief",
+                    },
             },
             "gpus": {
                 "gpu_1" : "bbeief",
@@ -152,12 +141,14 @@ knowledge_base = {
             },
             "rams": {
                     "8GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     },
                     "16GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3" : "bbeief",
                     }
             },
             "gpus": {
@@ -180,21 +171,19 @@ knowledge_base = {
                 "processor_3": "defewfbe",
             },
             "rams": {
-                    "4GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
                     "8GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     },
                     "16GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     }
             },
             "motherboards": {
-                "motherboard_1" : 111111111,
+                "motherboard_1" : "fhuefuef",
                 "motherboard_2" : "grufbrfh",
                 "motherboard_3" : "grufbrfh",
             },
@@ -206,21 +195,19 @@ knowledge_base = {
                 "processor_3": "defewfbe",
             },
             "rams": {
-                    "4GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    },
                     "8GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     },
                     "16GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     }
             },
             "motherboards": {
-                "motherboard_1" : 111111111,
+                "motherboard_1" : "f4fef3f3",
                 "motherboard_2" : "grufbrfh",
                 "motherboard_3" : "grufbrfh",
             },
@@ -233,20 +220,18 @@ knowledge_base = {
             },
             "rams": {
                     "4GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     },
                     "8GB": {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
+                        "ram_1": "bbeief",
+                        "ram_2": "bbeief",
+                        "ram_3": "bbeief",
                     },
-                    "16GB" : {
-                        "ram_1" : "bbeief",
-                        "ram_2" : "fbhefe",
-                    }
             },
             "motherboards": {
-                "motherboard_1" : 111111111,
+                "motherboard_1" : "ebfehbfh",
                 "motherboard_2" : "grufbrfh",
                 "motherboard_3" : "grufbrfh",
             },

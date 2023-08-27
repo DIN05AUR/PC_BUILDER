@@ -1,3 +1,4 @@
+import textwrap
 from variables import options
 from art import tprint
 import variables
@@ -55,25 +56,52 @@ def ask_multitask():
   print("Is multitasking your style of doing things?")
   show_multitask_box(variables.text1)
   multitasking = input("Please choose an option: ")
-  return multitasking
+  try:
+      multitask_int = int(multitasking)
+  except ValueError:
+      print("Invalid input. Please enter a valid number.")
+      return ask_multitask()  # Ask again if input is invalid
+
+  return multitask_int
 
 #---------------------------------------------------------------------------------------------------------------------------
 
 def print_quotation_1():
     print("Here is your quotation 1: ")
     for key, value in variables.quotation_1.items():
-        print(f"{key}: {value}")
+        print(f"{key}:")
+        wrapped_value = textwrap.fill(value, width=50)
+        print(wrapped_value)
+        print()  # seems obnoxious, to be taken care of later on
 
 #---------------------------------------------------------------------------------------------------------------------------
 
 def print_quotation_2():
     print("Here is your quotation 2: ")
     for key, value in variables.quotation_2.items():
-        print(f"{key}: {value}")
+        print(f"{key}:")
+        wrapped_value = textwrap.fill(value, width=50)
+        print(wrapped_value)
+        print() #seems obnoxious, to be taken care of later on
 
-#------------------------------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------------------------------
 
-def print_quotation_2():
-    print("Here is your quotation 2: ")
-    for key, value in variables.quotation_2.items():
-        print(f"{key}: {value}")
+def print_quotation_3():
+    print("Here is your quotation 3: ")
+    for key, value in variables.quotation_3.items():
+        print(f"{key}:")
+        wrapped_value = textwrap.fill(value, width=50)
+        print(wrapped_value)
+        print()  # seems obnoxious, to be taken care of later on
+
+#---------------------------------------------------------------------------------------------------------------------------
+
+def print_quotation_4():
+    print("Here is your quotation 4: ")
+    for key, value in variables.quotation_4.items():
+        print(f"{key}:")
+        wrapped_value = textwrap.fill(value, width=50)
+        print(wrapped_value)
+        print()  # seems obnoxious, to be taken care of later on
+
+#---------------------------------------------------------------------------------------------------------------------------

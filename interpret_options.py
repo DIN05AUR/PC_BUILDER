@@ -41,13 +41,14 @@ def interpret_budget(budget_option):
         processor_1 = knowledge_base[variables.build_status]["high"]["processors"]["processor_1"]
         processor_2 = knowledge_base[variables.build_status]["high"]["processors"]["processor_2"]
         processor_3 = knowledge_base[variables.build_status]["high"]["processors"]["processor_3"]
-        # ram_1 = knowledge_base[variables.build_status]["high"]["rams"]["ram_1"]
-        # ram_2 = knowledge_base[variables.build_status]["high"]["rams"]["ram_2"]
+
         motherboard_1 = knowledge_base[variables.build_status]["high"]["motherboards"]["motherboard_1"]
         motherboard_2 = knowledge_base[variables.build_status]["high"]["motherboards"]["motherboard_2"]
+        motherboard_3 = knowledge_base[variables.build_status]["high"]["motherboards"]["motherboard_3"]
 
         variables.quotation_1.update({"Processor": processor_1, "Motherboard": motherboard_1}),
         variables.quotation_2.update({"Processor": processor_2, "Motherboard": motherboard_2})
+        variables.quotation_3.update({"Processor": processor_3, "Motherboard": motherboard_3})
 
     elif budget_option == 2:
         processor_1 = knowledge_base[variables.build_status]["mid"]["processors"]["processor_1"]
@@ -56,19 +57,32 @@ def interpret_budget(budget_option):
 
         motherboard_1 = knowledge_base[variables.build_status]["mid"]["motherboards"]["motherboard_1"]
         motherboard_2 = knowledge_base[variables.build_status]["mid"]["motherboards"]["motherboard_2"]
+        motherboard_3 = knowledge_base[variables.build_status]["mid"]["motherboards"]["motherboard_3"]
 
         variables.quotation_1.update({"Processor": processor_1, "Motherboard": motherboard_1}),
         variables.quotation_2.update({"Processor": processor_2, "Motherboard": motherboard_2})
+        variables.quotation_3.update({"Processor": processor_3, "Motherboard": motherboard_3})
 
     elif budget_option == 3:
         processor_1 = knowledge_base[variables.build_status]["low"]["processors"]["processor_1"]
         processor_2 = knowledge_base[variables.build_status]["low"]["processors"]["processor_2"]
         processor_3 = knowledge_base[variables.build_status]["low"]["processors"]["processor_3"]
 
+
         motherboard_1 = knowledge_base[variables.build_status]["low"]["motherboards"]["motherboard_1"]
         motherboard_2 = knowledge_base[variables.build_status]["low"]["motherboards"]["motherboard_2"]
+        motherboard_3 = knowledge_base[variables.build_status]["low"]["motherboards"]["motherboard_3"]
 
         variables.quotation_1.update({"Processor": processor_1, "Motherboard": motherboard_1}),
         variables.quotation_2.update({"Processor": processor_2, "Motherboard": motherboard_2})
-    # print(quotation_1)
-    return variables.quotation_1, variables.quotation_2
+        variables.quotation_3.update({"Processor": processor_3, "Motherboard": motherboard_3})
+
+    if budget_option == 1 and variables.build_status == "heavy":
+        processor_4 = knowledge_base[variables.build_status]["high"]["processors"]["processor_4"]
+        motherboard_4 = knowledge_base[variables.build_status]["high"]["motherboards"]["motherboard_4"]
+        variables.quotation_4.update({"Processor": processor_4, "Motherboard": motherboard_4})
+
+
+    return variables.quotation_1, variables.quotation_2, variables.quotation_3, variables.quotation_4
+
+#------------------------------------------------------------------------------------------------------------------------------------
