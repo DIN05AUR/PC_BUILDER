@@ -13,6 +13,13 @@ knowledge_base = {
                 "ram_3": "DDR5: G.Skill Trident Z5 RGB 32GB (2 * 16GB) DDR5 5600 MHz / G.Skill Ripjaws S5 (Intel XMP) 64GB (2 x 32GB) DDR5 5600",
                 "ram_4": "DDR4: G.SKILL Trident Z Neo 32GB (2 * 16GB) DDR4 3600MHz / G.Skill Trident Z NEO Series 64GB (2 x 32GB)",
             },
+            "ssd": {
+                "ssd_1": "Gen4 - Seagate FireCuda 530 [1/2/4TB]",
+                "ssd_2": "Gen4 - WD_Black SN850X [1/2/4TB]",
+                "ssd_3": "Gen4 - Samsung 980 PRO [1/2/4TB]",
+                "ssd_4": "Gen4 - Kingston FURY Renegade [1/2/4TB]",
+                "ssd_5": "Gen4 - Crucial P5 Plus [1/2/4TB]",
+            },
             "gpus": {
                 "gpu_1": "bbeief",
                 "gpu_2": "fbhefe",
@@ -35,6 +42,13 @@ knowledge_base = {
                 "ram_2": "DDR4: G.Skill Trident Z Neo RGB 32GB (2 * 16GB) DDR4 3200 Mhz / G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB]",
                 "ram_3": "DDR5: TEAMGROUP T-Force Delta RGB DDR5 Black 32GB Kit (16GBx2) 5200MHz",
             },
+            "ssd": {
+                "ssd_1": "Gen4 - Seagate FireCuda 530 [1/2/4TB]",
+                "ssd_2": "Gen4 - WD_Black SN850X [1/2/4TB]",
+                "ssd_3": "Gen4 - Samsung 980 PRO [1/2/4TB]",
+                "ssd_4": "Gen4 - Kingston FURY Renegade [1/2/4TB]",
+                "ssd_5": "Gen4 - Crucial P5 Plus [1/2/4TB]",
+            },
             "gpus": {
                 "gpu_1" : "bbeief",
                 "gpu_2" : "fbhefe",
@@ -55,6 +69,15 @@ knowledge_base = {
                 "ram_1": "G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB] /G.Skill Trident Z RGB Series 32GB (2 x 16GB)/Patriot Viper Steel RGB DDR4 RAM 32GB (2X16GB) 3200MHz",
                 "ram_2": "G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB] /G.Skill Trident Z RGB Series 32GB (2 x 16GB)/Patriot Viper Steel RGB DDR4 RAM 32GB (2X16GB) 3200MHz",
                 "ram_3": "G.SKILL Ripjaws V 32GB (2 * 16GB) 3200 Mhz [No RGB] /G.Skill Trident Z RGB Series 32GB (2 x 16GB)/Patriot Viper Steel RGB DDR4 RAM 32GB (2X16GB) 3200MHz",
+            },
+            "ssd": {
+                "ssd_1": "Gen4 - XPG GAMMIX S70 Blade [1/2TB]",
+                "ssd_2": "Gen4 - Crucial P3 Plus [1/2TB]",
+                "ssd_3": "Gen4 - Silicon Power UD90 [1/2TB]",
+                "ssd_4": "Gen4 - Silicon Power UD85 [1/2TB]",
+                "ssd_5": "Gen4 - WD Black SN770 [1TB]",
+                "ssd_6": "Gen4 - Crucial P5 Plus [1TB]",
+                "ssd_7": "Gen3 - WD Blue SN570 [1TB]",
             },
             "gpus": {
                 "gpu_1" : "bbeief",
@@ -90,6 +113,13 @@ knowledge_base = {
                         "ram_3" : "bbeief",
                     },
             },
+            "ssd": {
+                "ssd_1": "",
+                "ssd_2": "",
+                "ssd_3": "",
+                "ssd_4": "",
+                "ssd_5": "",
+            },
             "gpus": {
                 "gpu_1" : "bbeief",
                 "gpu_2" : 2222222,
@@ -123,6 +153,13 @@ knowledge_base = {
                         "ram_3" : "bbeief",
                     },
             },
+            "ssd": {
+                "ssd_1": "",
+                "ssd_2": "",
+                "ssd_3": "",
+                "ssd_4": "",
+                "ssd_5": "",
+            },
             "gpus": {
                 "gpu_1" : "bbeief",
                 "gpu_2" : "fbhefe",
@@ -150,6 +187,13 @@ knowledge_base = {
                         "ram_2": "bbeief",
                         "ram_3" : "bbeief",
                     }
+            },
+            "ssd": {
+                "ssd_1": "",
+                "ssd_2": "",
+                "ssd_3": "",
+                "ssd_4": "",
+                "ssd_5": "",
             },
             "gpus": {
                 "gpu_1" : "bbeief",
@@ -182,6 +226,13 @@ knowledge_base = {
                         "ram_3": "bbeief",
                     }
             },
+            "ssd": {
+                "ssd_1": "",
+                "ssd_2": "",
+                "ssd_3": "",
+                "ssd_4": "",
+                "ssd_5": "",
+            },
             "motherboards": {
                 "motherboard_1" : "fhuefuef",
                 "motherboard_2" : "grufbrfh",
@@ -206,6 +257,13 @@ knowledge_base = {
                         "ram_3": "bbeief",
                     }
             },
+            "ssd": {
+                "ssd_1": "",
+                "ssd_2": "",
+                "ssd_3": "",
+                "ssd_4": "",
+                "ssd_5": "",
+            },
             "motherboards": {
                 "motherboard_1" : "f4fef3f3",
                 "motherboard_2" : "grufbrfh",
@@ -229,6 +287,13 @@ knowledge_base = {
                         "ram_2": "bbeief",
                         "ram_3": "bbeief",
                     },
+            },
+            "ssd": {
+                "ssd_1": "",
+                "ssd_2": "",
+                "ssd_3": "",
+                "ssd_4": "",
+                "ssd_5": "",
             },
             "motherboards": {
                 "motherboard_1" : "ebfehbfh",

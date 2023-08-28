@@ -4,10 +4,10 @@ from knowledge_base import knowledge_base
 def interpret_option(numbers):
     variables.build_status = None
     # check if the user needs a gpu based on the input
-    gpu_required = False
+    # gpu_required = False
     for number in numbers:
         if number in [7, 8, 9, 10, 13, 14, 15, 16]:
-            gpu_required = True
+            variables.gpu_required = True
 
     # classify the input as low, mid and high
     for number in numbers:
@@ -31,7 +31,7 @@ def interpret_option(numbers):
 
     # print("Does the user require a GPU: ", gpu_required)
     # print("Build Status:", variables.build_status)
-    return variables.result_list, gpu_required, variables.build_status
+    return variables.result_list, variables.gpu_required, variables.build_status
 
 
 #------------------------------------------------------------------------------------------------------------------------

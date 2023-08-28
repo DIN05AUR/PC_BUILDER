@@ -21,6 +21,7 @@ options = {
 
 build_status = ""
 result_list = []
+gpu_required = False
 quotation_1 = {}
 quotation_2 = {}
 quotation_3 = {}

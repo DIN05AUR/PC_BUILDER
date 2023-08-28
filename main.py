@@ -1,5 +1,6 @@
 import interpret_options
 import functions
+import select_ssd
 import variables
 from knowledge_base import knowledge_base
 
@@ -348,6 +349,7 @@ interpret_options.interpret_budget(budget_option)
 multitask = functions.ask_multitask()
 functions.show_asterisk_divider(60)
 select_rams()
+select_ssd.select_ssds(build_status,budget_option)
 functions.print_quotation_1()
 functions.show_divider()
 functions.print_quotation_2()
